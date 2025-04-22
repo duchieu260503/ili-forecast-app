@@ -4,6 +4,12 @@ This Streamlit web app allows users to visualize influenza-like illness (ILI) tr
 
 It also enables users to forecast ILI percentages and estimated case counts for upcoming weeks based on past trends.
 
+## 🛜 Deployment
+
+The app has been deployed! You can check it out [here](https://ili-forecast-app-j3iggvdfzqxnxgakl696yy.streamlit.app/)!
+
+![Screenshot](./data/Screenshot.png)
+
 ## 📊 Features
 
 - View and explore cleaned ILI dataset.
