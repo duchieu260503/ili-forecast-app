@@ -6,7 +6,7 @@ It also enables users to forecast ILI percentages and estimated case counts for 
 
 ## Official Poster
 
-![Poster](./data/Forecasting%20ILI%20Trends%20Using%20Machine%20Learning.png)
+![Poster](./plots/Forecasting%20ILI%20Trends%20Using%20Machine%20Learning.png)
 
 ## 🛜 Deployment
 
