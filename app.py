@@ -186,7 +186,7 @@ st.dataframe(summary_df.style.format({"RMSE": "{:.3f}", "R²": "{:.3f}"}))
 
 st.subheader("🔮 Forecasting Next Weeks")
 model_choice = st.selectbox("Choose model:", ["Random Forest", "Linear Regression", "XGBoost"])
-forecast_weeks = st.slider("How many weeks to forecast?", 1, 20, 4)
+forecast_weeks = st.slider("How many weeks to forecast?", 1, 100, 4)
 
 # Get latest weighted_ili values
 history = df["weighted_ili"].iloc[-5:].tolist()
