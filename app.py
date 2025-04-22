@@ -90,11 +90,11 @@ rf_r2 = r2_score(y_test, rf_preds)
 lr_r2 = r2_score(y_test, lr_preds)
 xgb_r2 = r2_score(y_test, xgb_preds)
 
-# Performance Summary
-st.subheader("📊 Model Performance Summary")
-st.markdown(f"- **Random Forest**: RMSE = {rf_rmse:.3f}, R² = {rf_r2:.3f}")
-st.markdown(f"- **Linear Regression**: RMSE = {lr_rmse:.3f}, R² = {lr_r2:.3f}")
-st.markdown(f"- **XGBoost**: RMSE = {xgb_rmse:.3f}, R² = {xgb_r2:.3f}")
+# # Performance Summary
+# st.subheader("📊 Model Performance Summary")
+# st.markdown(f"- **Random Forest**: RMSE = {rf_rmse:.3f}, R² = {rf_r2:.3f}")
+# st.markdown(f"- **Linear Regression**: RMSE = {lr_rmse:.3f}, R² = {lr_r2:.3f}")
+# st.markdown(f"- **XGBoost**: RMSE = {xgb_rmse:.3f}, R² = {xgb_r2:.3f}")
 
 # Plot: Predicted vs Actual
 
