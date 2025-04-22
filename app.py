@@ -171,18 +171,18 @@ plot_model_vs_actual("Linear Regression", y_test, lr_preds)
 plot_model_vs_actual("XGBoost", y_test, xgb_preds)
 
 # 🏁 Overall Summary
-st.subheader("✅ Overall Model Performance Summary")
-summary_df = pd.DataFrame({
-    "Model": ["Random Forest", "Linear Regression", "XGBoost"],
-    "RMSE": [mean_squared_error(y_test, rf_preds),
-             mean_squared_error(y_test, lr_preds),
-             mean_squared_error(y_test, xgb_preds)],
-    "R²": [r2_score(y_test, rf_preds),
-           r2_score(y_test, lr_preds),
-           r2_score(y_test, xgb_preds)]
-})
+# st.subheader("✅ Overall Model Performance Summary")
+# summary_df = pd.DataFrame({
+#     "Model": ["Random Forest", "Linear Regression", "XGBoost"],
+#     "RMSE": [mean_squared_error(y_test, rf_preds),
+#              mean_squared_error(y_test, lr_preds),
+#              mean_squared_error(y_test, xgb_preds)],
+#     "R²": [r2_score(y_test, rf_preds),
+#            r2_score(y_test, lr_preds),
+#            r2_score(y_test, xgb_preds)]
+# })
 
-st.dataframe(summary_df.style.format({"RMSE": "{:.3f}", "R²": "{:.3f}"}))
+# st.dataframe(summary_df.style.format({"RMSE": "{:.3f}", "R²": "{:.3f}"}))
 
 st.subheader("🔮 Forecasting Next Weeks")
 model_choice = st.selectbox("Choose model:", ["Random Forest", "Linear Regression", "XGBoost"])
