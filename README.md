@@ -10,7 +10,7 @@ It also enables users to forecast ILI percentages and estimated case counts for 
 
 ## 🛜 Deployment
 
-The app has been deployed! You can check it out [here](https://ili-forecast-app-j3iggvdfzqxnxgakl696yy.streamlit.app/)!
+The app has been deployed! You can check it out [here](https://ili-forecast-app.streamlit.app/)!
 
 ![Screenshot](./data/Screenshot.png)
 
