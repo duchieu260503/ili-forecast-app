@@ -15,14 +15,18 @@ It also enables users to forecast ILI percentages and estimated case counts for 
 
 ## 📁 Dataset
 
-The app loads a pre-cleaned dataset `cleaned.csv`. Make sure this file is in the same directory as `app.py`.
+The app use official data from the CDC, which could be found [here](https://gis.cdc.gov/grasp/fluview/fluportaldashboard.html).
+
+Only file `ILINet.csv` is used, and the cleaning script could be found [here](https://github.com/duchieu260503/ili-forecast-app/blob/main/draft_work/data_clean_and_figures.ipynb)
+
+Final dataset being used is `cleaned.csv`. Make sure this file is in the same directory as `app.py`.
 
 ## 🚀 Getting Started
 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/ili-forecast-app.git
+git clone https://github.com/duchieu260503/ili-forecast-app.git
 cd ili-forecast-app
 ```
 
